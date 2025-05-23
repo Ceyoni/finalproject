@@ -1,45 +1,59 @@
 body {
     font-family: sans-serif;
-    background-image:linear-gradient(lightgreen,blue);
-}
-h1 {
-  background-image:linear-gradient(blue, yellow);
-  margin: auto;
-  width: 50%;
-  text-align:center ;
-  box-shadow: 5px 5px 2px 0 black ;
-}
-header {
-    background-image:linear-gradient(yellow,blue);
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px 2px 0 black
-}
-.link-text {
-  color: rgb(185, 185, 4);
-}
-footer {
-   background-image:linear-gradient(yellow,blue);
-   box-shadow: 5px -5px 2px 0 black;
-
-}
-.link-header {
-    text-decoration: none;
-    border:3px solid black;
-    padding:10px;
-    background-image:linear-gradient(blue, yellow);
-    border-radius: 5px;
-    color: rgb(60, 0, 255);
-}
-.imgg {
-  width: 500px;
-  border-radius: 29px;
-    box-shadow: 5px 5px 2px 0 black ;
-     border: 5px solid lightgreen;
-     margin-bottom:20px ;
 }
 
 
-  
+header{
+ background-image:linear-gradient(to left,green,white,lightgreen);
+ padding: 20px;
+}
 
 
+.link-header{
+ text-decoration: none;
+ background-color: green;
+ padding:10px;
+ border-radius: 20px;
+ border: 2px dashed blue ;
+ box-shadow: 5px 5px 2px 0 green;
+
+}
+
+.link-header:hover{
+ box-shadow: 0px 0px 0px 0;
+ background-color:blue ;
+ color: green;
+ text-decoration: underline;
+ border: 3px dashed green ;
+ border-radius: 10px;
+}
+
+body{
+ background-color: lightblue ;
+
+}
+
+h1{
+ text-align: center;
+ color: purple;
+ text-shadow:5px 5px 2px rgb(81, 81, 131) ;
+}
+.link-text{
+ text-decoration: none;
+ background-color: purple;
+ padding:5px;
+ border-radius: 20px;
+ border: 2px dashed blue ;
+ color: beige;
+ 
+
+}
+
+
+.link-text:hover{
+ background-color:pink ;
+ color: rgb(173, 176, 230);
+ border: 3px dashed lightgreen ;
+ border-radius: 10px;
+ text-decoration: underline;
+}
